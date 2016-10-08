@@ -1,0 +1,43 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+@media(min-width:640px){
+	.container{
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	}
+}
+@media(max-width: 640px){
+	.container{
+		margin: 0;
+		padding: 20px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	.four{
+		order: -1;
+	}
+}
+.container div{
+	width: 150px;
+	border:1px solid red;
+}
+.one{
+	height: 120px;
+}
+.two{
+	height: 100px;
+}
+.three{
+	height: 40px;
+}
+.four{
+	height: 200px;
+}
